@@ -1,4 +1,4 @@
-module.exports = function(content, options) => {
+module.exports = function(content, options) {
   this.cacheable && this.cacheable()
   this.value = content
 
